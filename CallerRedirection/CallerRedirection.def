@@ -1,0 +1,6 @@
+LIBRARY CALLERREDIRECTION
+EXPORTS
+	??0Redirect@@QAE@PA_W@Z @1
+	??1Redirect@@QAE@XZ @2
+
+	?RedirectCall@Redirect@@QAEXXZ @3
