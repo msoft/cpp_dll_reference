@@ -9,7 +9,7 @@ Redirect::Redirect(wchar_t *textToDisplay)
 
 Redirect::~Redirect()
 {
-	//this->callee->~Callee();
+	// delete this->callee;
 }
 
 void Redirect::RedirectCall()

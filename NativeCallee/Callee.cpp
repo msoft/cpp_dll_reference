@@ -6,7 +6,7 @@ void DisplayTextWithCallee(const wchar_t *textToDisplay)
 {
 	Callee *callee = new Callee(const_cast<wchar_t*>(textToDisplay));
 	callee->DisplayText();
-	callee->~Callee();
+	delete callee;
 }
 
 Callee::Callee(wchar_t *textToDisplay)
